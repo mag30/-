@@ -1,0 +1,25 @@
+void main(List<String> arguments) {
+ int a = 3;
+   switch(a){
+       case 0:
+          print('Вы ввели 0');
+       break;
+       case 1:
+          print('Вы ввели 1');
+       break;
+       case 2:
+          print('Вы ввели 2');
+       break;
+       case 3:
+           print('Вы ввели 3');
+       break;
+       case 4:
+           print('Вы ввели 4');
+       break;
+       case 5:
+       print('Вы ввели 5');
+       break;
+     default:
+       print('Вы ввели число вне диапозона от 0 до 5');
+   }
+}
